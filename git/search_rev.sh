@@ -1,4 +1,4 @@
-#!/bin/ash
+#!/bin/bash
 
 git log > git_logs_full.txt
 git log --pretty=tformat:'%H' > git_logs.txt
